@@ -1,0 +1,47 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.question-box {
+  position: relative;
+}
+
+.buttons {
+  position: relative;
+  margin-top: 20px;
+}
+
+.yes-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  transition: font-size 0.3s ease-in-out;
+  background-color: pink;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.no-button {
+  padding: 10px 20px;
+  font-weight: bold;
+  background-color: lightgray;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  position: absolute;
+  transition: all 0.2s ease-in-out;
+}
+
+.message-box {
+  text-align: center;
+}
+
+.stitch-img {
+  width: 200px;
+  margin-top: 20px;
+}
